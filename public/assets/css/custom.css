@@ -1,0 +1,95 @@
+.main-menu .navigation > li > ul {
+    width: 250px;
+}
+.about-section-two .content-column .float-text {
+    position: absolute;
+    right: -120px;
+    bottom: -52px;
+    font-size: 65px;
+    color: var(--theme-color3);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    font-weight: 600;
+    -webkit-transform-origin: top right;
+    transform-origin: top right;
+}
+
+.logostyle-light{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow: 
+    -2px -2px 0 var(--theme-color2),  
+     2px -2px 0 var(--theme-color2),
+    -2px  2px 0 var(--theme-color2),
+     2px  2px 0 var(--theme-color2); /* Outline color */
+}
+.logostyle-light img{
+    width: 65px;
+}
+
+.service-block .read-more {
+    position: relative;
+    z-index: 1;
+    left: -80px;
+}
+
+
+
+/* =================================SWIPER  CSS ======================================================= */
+
+/* HOMEPAGE service section  */
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: #ff0029 !important;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.service-block {
+    width: 100%;
+}
+
+/* HOMEPAGE service section ends here  */
+
+/* ================================= SWIPER CSS ENDS HERE ============================================ */
+
+
+.policy-heading{
+    font-size: 24px;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet{
+cursor: pointer !important;
+    padding: 5px !important;
+    border: 4px solid #ffffff !important;
+    box-shadow: 0 0 0 1px grey !important;
+    margin: 0 5px !important;
+}
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    transform: scale(1.2);
+}
+.swiper.mySwiper {
+    padding-bottom: 35px !important;
+}
